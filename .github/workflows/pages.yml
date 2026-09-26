@@ -1,0 +1,36 @@
+name: Deploy UserArena to GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/configure-pages@v5
+      - name: Collect static website files
+        run: |
+          mkdir -p "$RUNNER_TEMP/userarena-pages"
+          cp index.html styles.css .nojekyll "$RUNNER_TEMP/userarena-pages/"
+          cp -R js data assets "$RUNNER_TEMP/userarena-pages/"
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/userarena-pages
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

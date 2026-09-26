@@ -1,0 +1,187 @@
+{
+  "version": "presentation-v1",
+  "observationTiming": "pre-action",
+  "note": "English presentation reconstructions. Four click observations only; remaining steps have no English frame. Product imagery is retouched; displayed prices are scaled for presentation, not currency conversion.",
+  "sessions": [
+    {
+      "session": 9,
+      "title": "Brow tint and eye cream \u00b7 two add-to-cart actions",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 2,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 3,
+          "action": "Click item",
+          "product": "Brow tint",
+          "image": "assets/observations/session-9-step-03.png"
+        },
+        {
+          "step": 4,
+          "action": "Add to cart",
+          "product": "Brow tint",
+          "image": null
+        },
+        {
+          "step": 5,
+          "action": "Back to feed",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 6,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 7,
+          "action": "Click item",
+          "product": "Eye cream",
+          "image": "assets/observations/session-9-step-07.png"
+        },
+        {
+          "step": 8,
+          "action": "Add to cart",
+          "product": "Eye cream",
+          "image": null
+        },
+        {
+          "step": 9,
+          "action": "End",
+          "product": "Eye cream",
+          "image": null
+        }
+      ]
+    },
+    {
+      "session": 10,
+      "title": "Makeup primer sample \u00b7 product inspection",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 2,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 3,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 4,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 5,
+          "action": "Click item",
+          "product": "Makeup primer sample",
+          "image": "assets/observations/session-10-step-05.png"
+        },
+        {
+          "step": 6,
+          "action": "Open details",
+          "product": "Makeup primer sample",
+          "image": null
+        },
+        {
+          "step": 7,
+          "action": "Back to feed",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 8,
+          "action": "End",
+          "product": "",
+          "image": null
+        }
+      ]
+    },
+    {
+      "session": 11,
+      "title": "Eyeshadow \u00b7 Buy, add to cart, and scrolling",
+      "steps": [
+        {
+          "step": 1,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 2,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 3,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 4,
+          "action": "Scroll down",
+          "product": "",
+          "image": null
+        },
+        {
+          "step": 5,
+          "action": "Click item",
+          "product": "Eyeshadow",
+          "image": "assets/observations/session-11-step-05.png"
+        },
+        {
+          "step": 6,
+          "action": "Buy",
+          "product": "Eyeshadow",
+          "image": null
+        },
+        {
+          "step": 7,
+          "action": "Add to cart",
+          "product": "Eyeshadow",
+          "image": null
+        },
+        {
+          "step": 8,
+          "action": "Scroll down",
+          "product": "Eyeshadow",
+          "image": null
+        },
+        {
+          "step": 9,
+          "action": "Scroll up",
+          "product": "Eyeshadow",
+          "image": null
+        },
+        {
+          "step": 10,
+          "action": "End",
+          "product": "Eyeshadow",
+          "image": null
+        }
+      ]
+    }
+  ]
+}
